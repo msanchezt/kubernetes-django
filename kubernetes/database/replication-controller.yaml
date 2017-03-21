@@ -29,14 +29,6 @@ spec:
           ports:
             - containerPort: 5432
       # TODO: User persistent disks, volumes and claims for the following
-      #     volumeMounts:
-      #       - mountPath: /var/lib/postgresql/data
-      #         name: pg-data
-      # volumes:
-      #   - name: pg-data
-      #     persistentVolumeClaim:
-      #       claimName: pg-data-claim
-         # TODO: User persistent disks, volumes and claims for the following
       #    volumeMounts:
       #      - name: pg-data
       #        mountPath: /var/lib/postgresql/data
